@@ -16,7 +16,7 @@ Para eso tenemos que crear un marketplace para que pueda elegir sus pociones de 
 
 ## Restricciones
 
-1. 🧙‍♂️ solo tiene 3 gemas asi que solo puede comprar pociones por un total de 3 gemas.
+1. [X] 🧙‍♂️ solo tiene 3 gemas asi que solo puede comprar pociones por un total de 3 gemas.
 2. Por restricciones gubernamentales solo podemos ofrecerle comprar solo una poción de cada categoría.
 3. 🧝‍♀️ la esposa de 🧙‍♂️ no nos permite venderle múltiples veces la misma poción, y no queremos averiguar que pasa si no la obedecemos.
 

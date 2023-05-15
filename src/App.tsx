@@ -5,12 +5,13 @@ import { ListadoProductosComponent } from "./components/ListadoProductosComponen
 
 function App() {
   const [showCarrito, setShowCarrito] = useState(false);
+  const [totalGemas, setGemas] = useState(3);
   return (
     <div
       className="min-h-full bg-fixed"
       style={{ backgroundImage: "url(background.webp)" }}
     >
-      <HeaderComponent />
+      <HeaderComponent cantidadGemas={totalGemas} />
       <div className="flex justify-center min-h-full">
         <div className="max-w-lg w-full py-16">
           {showCarrito ? <CarritoComponent /> : <ListadoProductosComponent />}
